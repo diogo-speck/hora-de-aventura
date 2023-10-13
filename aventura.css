@@ -7,9 +7,10 @@
 .header {
     padding: 30px;
     text-align: center;
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/422/253/260/adventure-time-finn-the-human-jake-the-dog-wallpaper-preview.jpg");
+    background-image: url("background.jpg");
     background-repeat: no-repeat;   
     background-position: center; 
+    background-size: auto 105%;
     background-color: #babe50;
     color: white;
     font-size: 30px;
