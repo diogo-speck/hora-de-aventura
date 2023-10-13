@@ -1,0 +1,58 @@
+.fundo{
+    background-color: #babe50;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/422/253/260/adventure-time-finn-the-human-jake-the-dog-wallpaper-preview.jpg");
+    background-repeat: no-repeat;   
+    background-position: center; 
+    background-color: #babe50;
+    color: white;
+    font-size: 30px;
+}
+
+.recuo{
+    margin: 50px;
+    display: flex;
+}
+
+h2 {
+    font-weight: normal; 
+    font-size: large;
+}
+
+img {
+    align-content: center;
+    border: solid 1px black;
+}
+
+table {
+    width: 100%;
+    border: solid 1px black;
+    background-color: #babe50;
+}
+
+a:visited {
+    color:blue
+}
+
+li{
+    color: black;
+    justify-content: center;
+}
+
+p a:visited{
+    color: white;
+}
+
+h3{
+    margin: 10px
+}
+
+body{
+    background-color: #babe50;
+}
