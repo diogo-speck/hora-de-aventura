@@ -338,7 +338,6 @@ footer a:hover {
     font-size: 3rem;
     margin-bottom: 1rem;
     background: linear-gradient(#f24232, #88221a);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
