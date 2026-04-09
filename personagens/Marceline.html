@@ -1,41 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Marceline</title>
+    <title>Marceline - Hora de Aventura</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='aventura.css'>
-    <script src='main.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/aventura.css'>
+    <script src='../js/script.js'></script>
 </head>
 <body>
 
-    <div class="fundo">
-    
-    <div class="header">
-        <h1> Hora de Aventura </h1>
-        <p>
-            <a href="Finn.html"a>Finn</a> &ensp; 
-            <a href="Jake.html"a>Jake</a> &ensp; 
-            <a href="Rei_Gelado.html"a>Rei Gelado</a> &ensp; 
-            <a href="Princesa_Jujuba.html"a>Princesa Jujuba</a> &ensp; 
-            <a href="hora_de_aventura.html"a>Voltar</a>
-        </p> 
-    </div>
+    <header>
+        <h1>Marceline - Rainha dos Vampiros</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">← Voltar</a></li>
+                <li><a href="Finn.html">Finn</a></li>
+                <li><a href="Jake.html">Jake</a></li>
+                <li><a href="rei-gelado.html">Rei Gelado</a></li>
+                <li><a href="princesa_jujuba.html">Princesa Jujuba</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <p></p>
+    <main>
+        <section class="personagem-section">
+            <div class="personagem-hero">
+                <img src="../images/Marceline.jpg" alt="Marceline - Rainha Vampira" class="personagem-img">
+                <div class="personagem-bio">
+                    <h2>Marceline<br><small>Rainha dos Vampiros</small></h2>
+                    <p class="idade">Vampira | Musicista | 1000+ anos</p>
+                </div>
+            </div>
+        </section>
 
-    <div class="recuo">
+        <section id="bio">
+            <h2>Biografia</h2>
+            <div class="bio-content">
+                <p>
+                    Apesar de sua primeira aparição como <strong>antagonista</strong>, Marceline se torna amiga próxima de <a href="Finn.html">Finn</a> e <a href="Jake.html">Jake</a>, evoluindo sua personalidade e relacionamentos.
+                </p>
+                <p>
+                    Ao contrário dos vampiros convencionais, <strong>se alimenta da cor vermelha</strong>. É uma <strong>ávida musicista e cantora</strong>.
+                </p>
+                <br>
+                <p>
+                    Tem uma pele acinzentada clara, orelhas pontudas herdadas do pai, cabelos pretos azulados longos até os pés e marcas de mordida no pescoço.
+                </p>
+            </div>
+        </section>
 
-    <img src="Marceline.jpg" height="300">
-    <h3>
-        Apesar de sua primeira aparição demonstrar uma natureza antagonista, com o passar da série a personagem se torna uma amiga próxima de Finn e Jake, e vai evoluindo sua personalidade e relacionamentos. Ao contrário dos vampiros convencionais, ela não precisa de sangue para viver, apenas se alimentando da cor vermelha. Ela é uma ávida musicista e cantora. Marceline tem a pele acinzentada clara, com orelhas pontudas, que foram herdadas do seu pai, e cabelos pretos azulados longos, tão longos que chegam a passar seus pés. Ela também possui duas marcas no pescoço, que são as marcas da mordida feita pelo Rei que a transformou em uma vampira.
-   
-    </h3>
+        <section id="habilidades" class="habilidades-section">
+            <h2>Habilidades & Poderes</h2>
+            <div class="habilidades-grid">
+                <div class="habilidade-card">
+                    <h3>🧛‍♀️ Vampira</h3>
+                    <p>Imortal, voo, regeneração e força sobre-humana</p>
+                </div>
+                <div class="habilidade-card">
+                    <h3>🎸 Musicista</h3>
+                    <p>Usa uma guitarra demoníaca e é uma compositora talentosa</p>
+                </div>
+                <div class="habilidade-card">
+                    <h3>❤️ Cor Vermelha</h3>
+                    <p>Se alimenta de vermelho (não sangue)</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    </div>
-
-</div>
+    <footer>
+        <p>&copy; 2024 Hora de Aventura - Marceline</p>
+    </footer>
 
 </body>
 </html>
